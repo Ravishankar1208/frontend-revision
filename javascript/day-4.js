@@ -1,6 +1,6 @@
- let name = prompt("enter your name");
+//  let name = prompt("enter your name");
 
- alert(`hey ${name}`);
+//  alert(`hey ${name}`);
 
 
  
