@@ -1,25 +1,25 @@
-// //pure function 
-// // // impure function
-// //  fcf 
+// // //pure function 
+// // // // impure function
+// // //  fcf 
 
-// //
-
-
+// // //
 
 
-// //    arrays = ek se jayda member rakhne ka jagah
 
-// let arr =[1,23,3,4,5,67,8,8,9];
+
+// // //    arrays = ek se jayda member rakhne ka jagah
+
+// // let arr =[1,23,3,4,5,67,8,8,9];
 
   
 
  
-//  object
+// //  object
 
-let std = {
-  name: "ravi",
-  age: 55
-}
+// let std = {
+//   name: "ravi",
+//   age: 55
+// }
 
-console.log(std);
-let std2 = new Object()
+// console.log(std);
+// let std2 = new Object()
