@@ -42,16 +42,19 @@
 // console.log(num);
 
 
-let btn = document.querySelector('button')
+// let btn = document.querySelector('button')
 
-let box = document.querySelector('#box')
+// let box = document.querySelector('#box')
 
-btn.addEventListener('click', function(){
+// btn.addEventListener('click', function(){
   
-  let c1 = Math.floor(Math.random()*256)
-  let c2 = Math.floor(Math.random()*256)
-  let c3 = Math.floor(Math.random()*256)
+//   let c1 = Math.floor(Math.random()*256)
+//   let c2 = Math.floor(Math.random()*256)
+//   let c3 = Math.floor(Math.random()*256)
 
-  box.style.backgroundColor= `rgb(${c1}, ${c2}, ${c3})`; 
+//   box.style.backgroundColor= `rgb(${c1}, ${c2}, ${c3})`; 
   
-})
+// })
+
+
+
