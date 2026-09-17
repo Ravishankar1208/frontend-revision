@@ -39,25 +39,9 @@
 
 
 
+// var h1 = document.createElement('h1')
+// h1.innerHTML= "hello ravi"
+// let maa = document.querySelector('main')
+// maa.appendChild(h1)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var h1 = document.createElement('h1')
-h1.innerHTML= "hello ravi"
-let maa = document.querySelector('main')
-maa.appendChild(h1)
