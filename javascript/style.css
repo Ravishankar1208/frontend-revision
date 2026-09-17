@@ -55,7 +55,7 @@ button:active {
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 } */
-
+/* 
 .card {
   width: 560px;
   padding: 25px;
@@ -75,7 +75,7 @@ button:active {
 
 
 /* ================= TEXT ================= */
-
+/*
 .card p {
   font-size: 18px;
   color: #222;
@@ -90,7 +90,6 @@ button:active {
 }
 
 
-/* ================= PROGRESS BAR ================= */
 
 .outer {
   width: 100%;
@@ -115,7 +114,6 @@ button:active {
 }
 
 
-/* ================= BOTTOM SECTION ================= */
 
 .buttom {
   display: flex;
@@ -133,7 +131,6 @@ button:active {
 }
 
 
-/* ================= DOWNLOAD BUTTON ================= */
 
 .buttom button {
   padding: 13px 28px;
@@ -162,8 +159,6 @@ button:active {
 }
 
 
-/* ================= MOBILE ================= */
-
 @media (max-width: 600px) {
 
   .card {
@@ -183,4 +178,167 @@ button:active {
     padding: 11px 20px;
     font-size: 16px;
   }
+} */
+
+
+
+/* 
+
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  width: 280px;
+  padding: 15px;
+  background-color: #222;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.card h2 {
+  color: white;
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+/* Heart 
+.card i {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.card i:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+.card i:active {
+  transform: scale(0.9);
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.name i {
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.name i:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+.name i:active {
+  transform: scale(0.9);
+}
+
+.name h2 {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+} */
+
+
+
+
+.card {
+  width: 280px;
+  padding: 15px;
+  background-color: #222;
+  border-radius: 15px;
+  text-align: center;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* Image */
+
+.card img {
+  width: 100%;
+  height: 320px;
+
+  object-fit: cover;
+
+  border-radius: 12px;
+}
+
+
+/* Name + Heart */
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+  margin-top: 15px;
+}
+
+
+/* Heart */
+
+.name i {
+  font-size: 28px;
+  color: white;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.name i:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
+
+/* Name */
+
+.name h2 {
+  color: white;
+  font-size: 24px;
+}
+
+#love{
+  opacity:0 ;
 }
