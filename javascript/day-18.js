@@ -74,24 +74,24 @@
 
 
 
-let grow = 0
-let h2 = document.querySelector('h2')
-let btn = document.querySelector('button')
-let inner = document.querySelector('.inner')
-btn.addEventListener('click', function () {
+// let grow = 0
+// let h2 = document.querySelector('h2')
+// let btn = document.querySelector('button')
+// let inner = document.querySelector('.inner')
+// btn.addEventListener('click', function () {
 
-let int=  setInterval(() => {
-    grow++
+// let int=  setInterval(() => {
+//     grow++
     
-    h2.innerHTML = `${grow}%`
-     inner.style.width= `${grow}%`
+//     h2.innerHTML = `${grow}%`
+//      inner.style.width= `${grow}%`
 
-     if(grow>=100){
-    clearInterval(int)
-    btn.innerHTML = "Downloaded"
-  }
+//      if(grow>=100){
+//     clearInterval(int)
+//     btn.innerHTML = "Downloaded"
+//   }
 
   
-  }, 100);
+//   }, 100);
   
-})
+// })
