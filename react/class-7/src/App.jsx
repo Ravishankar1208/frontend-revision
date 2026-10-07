@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Card from "./components/Card.jsx";
 
 const App = () => {
 
@@ -92,11 +93,7 @@ const App = () => {
       </form>
 
       <div className='px-4 py-10 flex flex-wrap '>
-        {allUsers.map(function(){
-          return <div>
-            "hello"
-          </div>
-        })}
+        <Card/>
       </div>
 
 
