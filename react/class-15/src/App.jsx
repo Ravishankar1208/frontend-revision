@@ -1,9 +1,18 @@
 import React from 'react'
+import { Link, Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+// import Home from './pages/Home'
+// import About from './pages/About'
 
 const App = () => {
   return (
     <div>
-      hlo......
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+
+      </Routes>
     </div>
   )
 }
